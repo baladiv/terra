@@ -1,13 +1,13 @@
 variable "awsprops" {
     default = {
     region = "ap-south-1"
-    vpc = "vpc-0225b695194accf68"
-    ami = "ami-052f483c20fa1351a"
+    vpc = "vpc-0f6f14df09870244a"
+    ami = "ami-022d03f649d12a49d"
     itype = "t2.micro"
-    subnet = "subnet-096095a99f420edf2"
+    subnet = "subnet-0f8ab3caffb7c5b48"
     publicip = true
     keyname = "terraform"
-    secgroupname = "IAC-Sec-Group098"
+    secgroupname = "IAC-Sec-Group0980"
   }
 }
 
@@ -67,6 +67,4 @@ resource "aws_instance" "project-iac" {
 }
 
 
-output "ec2instance" {
-  value = aws_instance.project-iac.public_ip
-}
+
