@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucklebuck" {
-  bucket = "bhashvika mirna"
+  bucket = "Bhashvika-mirna03"
   acl    = "private"
 
   tags = {
