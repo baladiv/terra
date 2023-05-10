@@ -3,7 +3,7 @@ variable "awsprops" {
     region = "ap-south-1"
     vpc = "vpc-0f6f14df09870244a"
     ami = "ami-022d03f649d12a49d"
-    itype = "t2.micro"
+    itype = "t2.medium"
     subnet = "subnet-0f8ab3caffb7c5b48"
     publicip = true
     keyname = "terraform"
