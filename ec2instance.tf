@@ -10,11 +10,6 @@ variable "awsprops" {
     secgroupname = "IAC-Sec-Group0980"
   }
 }
-
-provider "aws" {
-  region = lookup(var.awsprops, "region")
-}
-
 resource "aws_security_group" "project-iac-sg" {
   name = lookup(var.awsprops, "secgroupname")
   description = lookup(var.awsprops, "secgroupname")
