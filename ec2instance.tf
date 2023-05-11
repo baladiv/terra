@@ -7,7 +7,7 @@ variable "awsprops" {
     subnet = "subnet-0f6add63bd647bda4"
     publicip = true
     keyname = "terraform"
-    secgroupname = "IAC-Sec-Group0980"
+    secgroupname = "IAC-Sec-Group098090"
   }
 }
 resource "aws_security_group" "project-iac-sg" {
